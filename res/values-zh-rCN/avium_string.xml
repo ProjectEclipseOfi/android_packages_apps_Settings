@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2023 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_volume_summary">应用独立音量设置</string>
+    <string name="app_volume_title">应用音量</string>
+    <string name="app_volume">应用音量</string>
+    <!-- Avium custom strings -->
+    <string name="avium_device_info_title">设备信息</string>
+    <string name="avium_ram">运行内存</string>
+    <string name="avium_processor">处理器</string>
+    <string name="avium_phone_model">手机型号</string>
+    <string name="avium_android_version">Android版本</string>
+    <string name="avium_storage">存储空间</string>
+    <string name="avium_system_version">系统版本</string>
+    <string name="avium_screen_resolution">屏幕分辨率</string>
+    <string name="avium_screen_size">屏幕尺寸</string>
+    <string name="avium_maintainer_info_title">关于 &amp; 维护者</string>
+    <string name="avium_maintainer">维护者</string>
+    <string name="avium_kernel_version">内核版本</string>
+    <string name="avium_selinux_status">SELinux 状态</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_disabled">Disabled</string>
+</resources>
