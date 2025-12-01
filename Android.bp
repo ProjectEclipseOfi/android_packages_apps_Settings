@@ -52,6 +52,14 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
+    // --- FIX START: Disable strict errors for Android 16 ---
+    javacflags: [
+        "-Xlint:-removal",      // Ignore removal warnings
+        "-Xlint:-deprecation",  // Ignore deprecation warnings
+        "-Wno-error",           // Do not crash on warnings
+    ],
+    // --- FIX END ---
+
     srcs: [
         "src/**/*.java",
         "src/**/*.kt",
