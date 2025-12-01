@@ -14412,6 +14412,10 @@ Data usage charges may apply.</string>
     <string name="eclipse_maintainer_info_title">About &amp; Maintainership</string>
     <string name="eclipse_maintainer">Maintainer</string>
     <string name="eclipse_kernel_version">Kernel Version</string>
+    <string name="eclipse_device_name">Device</string>
+    <string name="eclipse_version">Version</string>
+    <string name="eclipse_email">Email</string>
+    <string name="eclipse_country">Country</string>
     <string name="eclipse_selinux_status">SELinux Status</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <string name="selinux_status_permissive">Permissive</string>

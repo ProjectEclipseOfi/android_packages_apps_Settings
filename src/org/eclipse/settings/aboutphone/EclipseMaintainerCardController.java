@@ -55,6 +55,18 @@ public class EclipseMaintainerCardController extends AbstractPreferenceControlle
         
         TextView kernelView = mLayoutPreference.findViewById(R.id.kernel_value);
         kernelView.setText(getKernelVersion());
+        
+        TextView deviceView = mLayoutPreference.findViewById(R.id.device_value);
+        deviceView.setText(SystemProperties.get("ro.eclipse.maintainer.device", UNKNOWN));
+        
+        TextView versionView = mLayoutPreference.findViewById(R.id.version_value);
+        versionView.setText(SystemProperties.get("ro.eclipse.maintainer.version", UNKNOWN));
+        
+        TextView emailView = mLayoutPreference.findViewById(R.id.email_value);
+        emailView.setText(SystemProperties.get("ro.eclipse.maintainer.email", ""));
+        
+        TextView countryView = mLayoutPreference.findViewById(R.id.country_value);
+        countryView.setText(SystemProperties.get("ro.eclipse.maintainer.country", ""));
     }
 
     /**

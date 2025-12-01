@@ -78,5 +78,109 @@
                 android:maxLines="1"
                 style="@style/EclipseMaintainerValue" />
         </LinearLayout>
+
+        <!-- device name -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eclipse_device_name"
+                style="@style/EclipseMaintainerTitle" />
+
+            <TextView
+                android:id="@+id/device_value"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:ellipsize="end"
+                android:maxLines="1"
+                style="@style/EclipseMaintainerValue" />
+        </LinearLayout>
+
+        <!-- version -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eclipse_version"
+                style="@style/EclipseMaintainerTitle" />
+
+            <TextView
+                android:id="@+id/version_value"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:ellipsize="end"
+                android:maxLines="1"
+                style="@style/EclipseMaintainerValue" />
+        </LinearLayout>
+
+        <!-- email -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eclipse_email"
+                style="@style/EclipseMaintainerTitle" />
+
+            <TextView
+                android:id="@+id/email_value"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:ellipsize="end"
+                android:maxLines="1"
+                style="@style/EclipseMaintainerValue" />
+        </LinearLayout>
+
+        <!-- country -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eclipse_country"
+                style="@style/EclipseMaintainerTitle" />
+
+            <TextView
+                android:id="@+id/country_value"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:ellipsize="end"
+                android:maxLines="1"
+                style="@style/EclipseMaintainerValue" />
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
